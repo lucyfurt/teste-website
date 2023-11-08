@@ -21,37 +21,47 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
+            <h1 className="font40 extraBold">Conheça nossos serviços</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              Descubra como podemos impulsionar o seu sucesso digital
+
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                title="Design Gráfico"
+                subtitle="Os designers gráficos são profissionais criativos especializados 
+                na concepção de elementos visuais, desde a criação de logotipos cativantes 
+                e identidades visuais marcantes para empresas, até o desenvolvimento de materiais 
+                de marketing persuasivos, incluindo panfletos, cartazes e catálogos"
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
                 title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                subtitle="Profissionais de web design são especialistas na criação 
+                de experiências de usuário atraentes e funcionais na internet. Eles projetam 
+                interfaces de websites que são visualmente atraentes, fáceis de usar e eficazes
+                 na comunicação de informações e mensagens. Além de criar layouts e elementos gráficos, 
+                 os web designers também consideram a usabilidade, a navegação e a arquitetura da informação 
+                para garantir que os visitantes do site tenham uma experiência positiva."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Desenvolvimento Web"
+                subtitle="Profissionais de desenvolvimento web são especializados na 
+                criação de sites e aplicativos da web. Eles transformam os projetos de 
+                web designers e as visões dos clientes em realidade, escrevendo o código 
+                necessário para construir funcionalidades, interatividade e desempenho na web. 
+                Isso envolve a programação de front-end, que se concentra na criação de interfaces 
+                de usuário e interatividade com o usuário, bem como o desenvolvimento de back-end, 
+                que se encarrega de gerenciar bancos de dados, lógica de negócios e servidores. "
               />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
@@ -59,18 +69,17 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
+                <h4 className="font15 semiBold">Algumas palavras sobre a empresa</h4>
+                <h2 className="font40 extraBold"> Atendimento de alto nível e dedicação aos clientes.</h2>
                 <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  
                 </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
+                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <FullButton title="Vamos iniciar?" action={() => alert("clicked")} />
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <FullButton title="Fale conosco" action={() => alert("clicked")} border />
                   </div>
                 </ButtonsRow>
               </AddLeft>
