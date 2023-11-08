@@ -12,27 +12,31 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Web Technological Innovation.</h1>
+          <h1 className="extraBold font60">Inovação Tecnológica para o Futuro Digital.</h1>
           <HeaderP className="font13 semiBold">
-          Na Web Technological Innovation, acreditamos que a tecnologia é o motor da inovação. Trabalhamos incansavelmente para criar soluções digitais que não apenas atendam, mas também excedam as expectativas de nossos clientes. Seja você uma startup em busca de um MVP (Produto Mínimo Viável) ou uma empresa estabelecida procurando uma parceria tecnológica confiável, estamos aqui para ajudar.
+            Na Web Technological Innovation, acreditamos que a tecnologia é o motor da inovação.
+            Trabalhamos incansavelmente para criar soluções digitais que não apenas atendam, mas
+            também excedam as expectativas de nossos clientes.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <FullButton title="Vamos iniciar?" />
           </BtnWrapper>
         </div>
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+                <em>"Inovação é a chave para o sucesso. Desenvolvemos soluções tecnológicas
+                  que transformam visões em realidade, abrindo portas para um futuro digital
+                  brilhante."</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              <p className="font13 orangeColor textRight" style={{ marginTop: '10px' }}>Luciana Furtado</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
