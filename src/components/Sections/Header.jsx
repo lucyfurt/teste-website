@@ -12,10 +12,9 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">Web Technological Innovation.</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Na Web Technological Innovation, acreditamos que a tecnologia é o motor da inovação. Trabalhamos incansavelmente para criar soluções digitais que não apenas atendam, mas também excedam as expectativas de nossos clientes. Seja você uma startup em busca de um MVP (Produto Mínimo Viável) ou uma empresa estabelecida procurando uma parceria tecnológica confiável, estamos aqui para ajudar.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
